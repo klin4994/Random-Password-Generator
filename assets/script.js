@@ -60,10 +60,7 @@ function generatePassword () {
 
     // Generate a password to match the length and the pool of characters, via random selection, 
     // and then split the new password into substrings
-    var s99= "9"
-    var n99 = 9
-    console.log(draftPass(s99,charTypeSelect))
-    console.log(draftPass(n99,charTypeSelect))
+    
     draftPassword = draftPass(setLength,charTypeSelect).split("")
   
     // Until the step above, the draft password should meet all of the criteria input by the user, if any.
