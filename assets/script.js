@@ -3,16 +3,8 @@ var generateBtn = document.querySelector("#generate");
 
 // Generate password
 function generatePassword () {   
-
-
-    var userlength = prompt("Please select the length of your password, between 8 and 128");
-    userlength = 9
-    if (userlength < 8 ) {
-     alert("Length selected is invalid. Please enter a number between 8 and 128");
-    };
-// While loop to ensure all criterial 
-    
- // Get input for password length 
+   
+ // Get input for length criteria
     if (confirm("Make password length in the criteria?")){
         setLength = getLength();
         console.log(setLength)
